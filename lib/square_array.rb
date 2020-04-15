@@ -6,6 +6,7 @@ def square_array(array)
   length = array.length
   while index < length do
     newarray[index] = (array[index])**
+    index += 1
   end
   return newarray
 end
