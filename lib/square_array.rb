@@ -1,8 +1,9 @@
 def square_array(array)
   # your code here
   newarray = []
-  array.length.times { |index|
+  length = array.length
+  length.times do |index|
     newarray[index] = (array[index])**
-  }
+  end
   return newarray
 end
